@@ -135,7 +135,6 @@ func matchTheInputsAndTargets(targets, inputs [][]string) []string {
 }
 
 func main() {
-	//	toIgnore := []string{"ad", "v2", "all", "ads", "id", "member", "waterloo", "video"}
 	regex := "\".+?\""
 	targets := prepareTargets(readTargets())
 	text := getFileContents()
